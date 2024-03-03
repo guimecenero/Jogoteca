@@ -1,0 +1,9 @@
+.lista-jogo {
+    text-align: center;
+  }
+  
+  .jogos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }

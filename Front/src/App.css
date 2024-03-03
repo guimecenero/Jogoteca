@@ -1,0 +1,19 @@
+body {
+  background-color: #e0f7fa;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #4fc3f7; /* Azul mais escuro para o cabeçalho */
+  color: white; /* Texto branco no cabeçalho */
+  padding: 10px;
+}
+
+.jogos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Ou use 'space-between', 'space-evenly', 'center', etc. conforme necessário */
+}

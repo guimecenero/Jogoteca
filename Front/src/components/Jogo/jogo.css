@@ -1,0 +1,54 @@
+.jogo-card {
+    border: 2px solid #3498db;
+    /* Cor azul: substitua pela cor desejada */
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+    height: 150px;
+    padding: 10px;
+    background-color: #256a99;
+}
+
+.jogo-card:hover {
+    transform: scale(1.05);
+}
+
+.jogo-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #3498db;
+    /* Cor azul: substitua pela cor desejada */
+}
+
+.jogo-info {
+    padding: 10px;
+    background-color: #3498db;
+    /* Cor azul: substitua pela cor desejada */
+    color: white;
+    text-align: left;
+    height: 130px;
+}
+
+.jogo-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.jogo-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 750px) {
+    .jogo-card {
+        width: 200px; /* Largura fixa para dispositivos maiores */
+    }
+}
+
+@media (max-width: 550px) {
+    .jogo-card {
+        width: 130px; /* Largura fixa para dispositivos maiores */
+    }
+}
